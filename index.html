@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- TradingView Widget Script -->
+    <script src="https://s3.tradingview.com/tv.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Trading Dashboard</h1>
+            <p>Live Market Data, Chart Analysis, and Trading Calculations</p>
+        </header>
+
+        <main>
+            <!-- Markedsinformation Sektion -->
+            <section class="market-info">
+                <h2>Market Overview</h2>
+                <div id="tradingview-widget"></div>
+                <div id="technical-analysis-widget"></div>
+            </section>
+
+            <!-- Candlestick Chart Sektion -->
+            <section class="chart">
+                <h2>Candlestick Chart</h2>
+                <div id="tradingview_chart"></div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
